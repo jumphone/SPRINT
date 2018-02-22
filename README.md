@@ -29,6 +29,7 @@ sprint_from_bam  |  [options]  |  aligned_reads(.bam)  |  reference_genome(.fa) 
 
 Details about "options" are in SPRINT_manual.pdf (https://github.com/jumphone/SPRINT/blob/master/SPRINT_manual.pdf)
 
+Repeat Annotation Files are in http://sprint.tianlab.cn/SPRINT/dbrep/
 
 # Attention:  
 
