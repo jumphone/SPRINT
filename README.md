@@ -80,7 +80,9 @@ ________________________
 For a given RES,
 
 Supporting reads (regular-RES): mapped high-quality reads (MQ>=20 AND BASEQ >=25 AND fragment-loc >5);
+
 Supporting reads (hyper-RES): remapped high-quality reads (BASEQ >=25 AND fragment-loc >5 AND Poly(N) <10 AND n(C)+n(T)<20);
+
 AD (all RES): mapped reads (without the restriction of quality) + remapped reads (without the restriction of quality).
 ________________________
 
@@ -95,7 +97,10 @@ ________________________
 5. About A-to-I (A-to-G) rate:
 
 For strand-specific data, “AG +” and "TC -"  are all thought to be A-to-G (A-to-I editing). 
+
 For non-strand-specific data, there are two ways to estimate the A-to-G rate:
+
 a. "AG +/-" + "TC +/-". Disadvantages: overestimate the A-to-G rate
+
 b. assign the strand of sites by using GENE annotations (e.g. ENSEMBL, REFSEQ, GENCODE, etc.) , and then: "AG +" + "TC -".  Disadvantages: gene region only, underestimate the A-to-G rate (the opposite strand may also have transcript )
 ________________________
