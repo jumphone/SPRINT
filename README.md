@@ -12,6 +12,10 @@ Python2.7
 SAMTOOLS == 1.2 & BWA == 0.7.12
 
 # Installation:
+Directly use the binary file 
+
+OR
+
 python setup.py install
 
 # Usage:
