@@ -14,7 +14,7 @@ SAMTOOLS == 1.2 & BWA == 0.7.12
 # Install:
 python setup.py install
 
-# Usage
+# Usage:
 
 sprint prepare |  [options]  | reference_genome(.fa) | bwa_path
 
