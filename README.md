@@ -27,6 +27,9 @@ sprint main  |  [options]  |  reference_genome(.fa) |   output_path  |  bwa_path
 sprint_from_bam  |  [options]  |  aligned_reads(.bam)  |  reference_genome(.fa)  |  output_path  |  samtools_path
 
 
+Details about "options" are in SPRINT_manual.pdf (https://github.com/jumphone/SPRINT/blob/master/SPRINT_manual.pdf)
+
+
 # Attention:  
 
 a. Before using "sprint_from_bam", BAM file should be sorted by using samtools ("samtools sort"). 
