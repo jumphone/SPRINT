@@ -2,7 +2,10 @@
 SNP-free RNA editing Identification Toolkit
 
 # Requirment:
-Python2.7, Linux
+Unix
+
+Python2.7
+
 SAMTOOLS == 1.2 & BWA == 0.7.12
 
 # Install:
