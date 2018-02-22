@@ -6,6 +6,7 @@ Feng Zhang, Yulan Lu, Sijia Yan, Qinghe Xing, Weidong Tian; SPRINT: an SNP-free 
 
 # Usage
 
+# Please use SAMTOOLS == 1.2 & BWA == 0.7.12 
 
 sprint prepare |  [options]  | reference_genome(.fa) | bwa_path
 
@@ -19,8 +20,6 @@ sprint_from_bam  |  [options]  |  aligned_reads(.bam)  |  reference_genome(.fa) 
 
 
 # Attention:  
-
-# Please use SAMTOOLS == 1.2 & BWA == 0.7.12 
 
 a. Before using "sprint_from_bam", BAM file should be sorted by using samtools ("samtools sort"). 
 
