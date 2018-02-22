@@ -1,0 +1,8 @@
+
+# Include the data files
+recursive-include data *
+#include sprint/sprint_main.py
+#include sprint/sprint_prepare.py
+# If using Python 2.6 or less, then have to include package data, even though
+# it's already declared in setup.py
+# include sprint/*.dat

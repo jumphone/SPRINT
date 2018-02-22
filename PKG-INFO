@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: sprint
+Version: 0.0.8
+Summary: A toolkit for accurately identifying RNA editing sites without the need to filter SNPs
+Home-page: http://sprint.tianlab.cn
+Author: Feng Zhang
+Author-email: 15110700005@fudan.edu.cn
+License: MIT
+Description: #SPRINT
+        
+        #Feng Zhang (15110700005@fudan.edu.cn)
+        
+        #pip install sprint
+        
+        #http://sprint.tianlab.cn/SPRINT/
+        
+Keywords: RNA editing
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
