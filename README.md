@@ -40,7 +40,7 @@ all_combined.zz :
 
 | Chr | SAM_Flag | MapQ | Loc | SNV | BaseQ | Read-loc | Seq | Read-name | Fragment-loc |
 
-Users can use zz2sam.py to convert 'tmp/all_combined.zz' into BAM format (Download: zz2sam.zip, python2.7): 
+Users can use zz2sam.py to convert 'tmp/all_combined.zz' into BAM format: 
 
 Step 1:  Please move to the output-directory of SPRINT, and download zz2sam.zip;
 
@@ -78,8 +78,6 @@ ________________________
 4. Change RepeatMasker File (rmsk) into BED file (used by SPRINT):
 
 Step 1:  Users can get RepeatMasker file from UCSC Table Browser (http://genome.ucsc.edu/cgi-bin/hgTables).
-
-
 
 Step 2: python  | rp2bed.py  |  hg38.rmsk  |  hg38_repeat.bed
 
