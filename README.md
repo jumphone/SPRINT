@@ -1,23 +1,22 @@
 # SPRINT
 
 # Usage
-________________________
+
 
 sprint prepare |  [options]  | reference_genome(.fa) | bwa_path
 
-________________________
+
 
 sprint main  |  [options]  |  reference_genome(.fa) |   output_path  |  bwa_path  |  samtools_path
 
-________________________
+
 
 sprint_from_bam  |  [options]  |  aligned_reads(.bam)  |  reference_genome(.fa)  |  output_path  |  samtools_path
 
-________________________
+
 
 
 # Tips:
-________________________
 
 1. Edited reads can be extracted from "tmp/all_combined.zz".
 
