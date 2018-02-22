@@ -1,4 +1,5 @@
 # SPRINT
+SNP-free RNA editing Identification Toolkit
 
 # Usage
 
