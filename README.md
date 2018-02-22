@@ -4,7 +4,7 @@ SNP-free RNA editing Identification Toolkit
 # Reference:
 Feng Zhang, Yulan Lu, Sijia Yan, Qinghe Xing, Weidong Tian; SPRINT: an SNP-free toolkit for identifying RNA editing sites, Bioinformatics, Volume 33, Issue 22, 15 November 2017, Pages 3538–3548, https://doi.org/10.1093/bioinformatics/btx473
 
-# Requirments:
+# Requirment:
 Unix
 
 Python2.7
