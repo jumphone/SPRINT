@@ -57,7 +57,7 @@ Users can use zz2sam.py to convert 'tmp/all_combined.zz' into BAM format:
 
 Step 1:  Please move to the output-directory of SPRINT;
 
-Step 2:  Download zz2sam.py in https://github.com/jumphone/SPRINT/tree/master/utilities;
+Step 2:  Download zz2sam.py from https://github.com/jumphone/SPRINT/tree/master/utilities;
 
 Step 3: "python zz2sam.py tmp/all_combined.zz";
 
