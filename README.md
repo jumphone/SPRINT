@@ -76,6 +76,8 @@ ________________________
 
 # 2. Get A-to-I RESs from the ouput directory of SPRINT.
 
+Script is in https://github.com/jumphone/SPRINT/tree/master/utilities
+
 Users can use getA2I.py to extract A-to-I RESs from the output of SPRINT (version>=0.1.7)
 
 python   |  getA2I.py   |  0 (1 for strand-specific data)   |  SPRINT_OUT   |   A_to_I_OUT
@@ -86,14 +88,16 @@ ________________________
 
 For a given RES,
 
-Supporting reads (regular-RES): mapped high-quality reads (MQ>=20 AND BASEQ >=25 AND fragment-loc >5);
+supporting reads (regular-RES): mapped high-quality reads (MQ>=20 AND BASEQ >=25 AND fragment-loc >5);
 
-Supporting reads (hyper-RES): remapped high-quality reads (BASEQ >=25 AND fragment-loc >5 AND Poly(N) <10 AND n(C)+n(T)<20);
+supporting reads (hyper-RES): remapped high-quality reads (BASEQ >=25 AND fragment-loc >5 AND Poly(N) <10 AND n(C)+n(T)<20);
 
 AD (all RES): mapped reads (without the restriction of quality) + remapped reads (without the restriction of quality).
 ________________________
 
 # 4. Change RepeatMasker File (rmsk) into BED file (used by SPRINT):
+
+Script is in https://github.com/jumphone/SPRINT/tree/master/utilities
 
 Step 1:  Users can get RepeatMasker file from UCSC Table Browser (http://genome.ucsc.edu/cgi-bin/hgTables).
 
