@@ -12,9 +12,7 @@ Python2.7
 SAMTOOLS == 1.2 & BWA == 0.7.12
 
 # Installation:
-Directly use the binary file 
-
-OR
+Directly use the binary file in https://github.com/jumphone/SPRINT/tree/master/bin, or
 
 python setup.py install
 
