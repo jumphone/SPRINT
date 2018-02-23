@@ -48,6 +48,8 @@ d. “sprint_from_bam” was designed for aligned reads without using any aligne
 
 # Tips:
 
+Scripts are in https://github.com/jumphone/SPRINT/tree/master/utilities
+
 # 1. Edited reads can be extracted from "tmp/all_combined.zz".
 
 all_combined.zz :
@@ -56,9 +58,9 @@ all_combined.zz :
 
 Users can use zz2sam.py to convert 'tmp/all_combined.zz' into BAM format: 
 
-Step 1:  Please move to the output-directory of SPRINT, and download zz2sam.zip;
+Step 1:  Please move to the output-directory of SPRINT;
 
-Step 2: "unzip zz2sam.zip";
+Step 2:  Download zz2sam.py in https://github.com/jumphone/SPRINT/tree/master/utilities;
 
 Step 3: "python zz2sam.py tmp/all_combined.zz";
 
