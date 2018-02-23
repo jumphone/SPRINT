@@ -48,7 +48,7 @@ d. “sprint_from_bam” was designed for aligned reads without using any aligne
 
 # Tips:
 
-1. Edited reads can be extracted from "tmp/all_combined.zz".
+# 1. Edited reads can be extracted from "tmp/all_combined.zz".
 
 all_combined.zz :
 
@@ -72,7 +72,7 @@ Step 7: "samtools sort all_combined.zz.bam -f all_combined.zz.sorted.bam".
 
 ________________________
 
-2. Get A-to-I RESs from the ouput directory of SPRINT.
+# 2. Get A-to-I RESs from the ouput directory of SPRINT.
 
 Users can use getA2I.py to extract A-to-I RESs from the output of SPRINT (version>=0.1.7)
 
@@ -80,7 +80,7 @@ python   |  getA2I.py   |  0 (1 for strand-specific data)   |  SPRINT_OUT   |   
 
 ________________________
 
-3. About "Supporting reads" and "AD":
+# 3. About "Supporting reads" and "AD":
 
 For a given RES,
 
@@ -91,7 +91,7 @@ Supporting reads (hyper-RES): remapped high-quality reads (BASEQ >=25 AND fragme
 AD (all RES): mapped reads (without the restriction of quality) + remapped reads (without the restriction of quality).
 ________________________
 
-4. Change RepeatMasker File (rmsk) into BED file (used by SPRINT):
+# 4. Change RepeatMasker File (rmsk) into BED file (used by SPRINT):
 
 Step 1:  Users can get RepeatMasker file from UCSC Table Browser (http://genome.ucsc.edu/cgi-bin/hgTables).
 
@@ -99,7 +99,7 @@ Step 2: python  | rp2bed.py  |  hg38.rmsk  |  hg38_repeat.bed
 
 ________________________
 
-5. About A-to-I (A-to-G) rate:
+# 5. About A-to-I (A-to-G) rate:
 
 For strand-specific data, “AG +” and "TC -"  are all thought to be A-to-G (A-to-I editing). 
 
