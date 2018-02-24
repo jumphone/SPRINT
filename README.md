@@ -7,7 +7,7 @@ Feng Zhang, Yulan Lu, Sijia Yan, Qinghe Xing, Weidong Tian; SPRINT: an SNP-free 
 # Requirement:
 # SAMTOOLS == 1.2 & BWA == 0.7.12
 # Unix & Python2.7
-# Do not use GZ files. Please "gunzip" the ".fastq.gz" files.
+# Do not use .GZ files. Please "gunzip" the ".fastq.gz" files.
 
 # Installation:
 Directly use the binary file in https://github.com/jumphone/SPRINT/tree/master/bin, or
