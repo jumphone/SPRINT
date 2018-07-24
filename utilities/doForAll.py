@@ -25,10 +25,9 @@ def Work(sprint_out_dir,a):
     #subprocess.Popen('python statGENE.py '+sprint_out_dir, shell=True).wait()
     
   
-fa=open('dead_metadata.cart.2017-02-13T07-29-02.705473.json.txt_new.paired')
+fa=open('lst.txt')
 fa.readline()
-PROC_LIMIT=40
-#P=[]
+PROC_LIMIT=4
 jobs=[]
 i=1
 
@@ -37,11 +36,9 @@ i=1
 for line in fa:
     print i;i+=1
     seq=line.rstrip().split('\t')
-    file_id=seq[2]
-    file_name=seq[1]
-    sprint_out_dir='./data/'+file_id+'/'+file_name+'.fq_sprint'
+    sprint_out_dir=seq[0]+'.fastq_sprint'
     print sprint_out_dir
-#    if file_id=='05275795-1405-45c3-9f72-938be4b20840':
+
     if 1==1:
         p=multiprocessing.Process(target=Work, args=(sprint_out_dir,1))
         p.start()
