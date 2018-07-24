@@ -2,7 +2,7 @@ import subprocess
 import multiprocessing
 import os
 
-ALL_A_to_I='/home/zhangfeng/disk/project/TCGA_2018/ALL_A_to_I.res.sorted '
+ALL_A_to_I='ALL_A_to_I.res.sorted.uniq.bed'
 
 def Work(sprint_out_dir,a):
     subprocess.Popen('python getA2I.py 0 '+sprint_out_dir+' '+sprint_out_dir+'/A_to_I.res',shell=True).wait()
