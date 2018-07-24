@@ -20,7 +20,8 @@ def Work(sprint_out_dir,a):
     
     subprocess.Popen('samtools depth -b '+ALL_A_to_I+' '+sprint_out_dir+'/all_combined.zz.sorted.bam'+' > '+sprint_out_dir+'/ALL_A_to_I.depth ',shell=True).wait()
     subprocess.Popen('python  getAlt.py '+sprint_out_dir+'/all_combined.zz.sorted  '+ALL_A_to_I+' '+sprint_out_dir+'/ALL_A_to_I.alt ',shell=True).wait()
-    subprocess.Popen('python combineAltDep.py '+sprint_out_dir, shell=True).wait()
+ 
+    #subprocess.Popen('python combineAltDep.py '+sprint_out_dir, shell=True).wait()
     #subprocess.Popen('python statGENE.py '+sprint_out_dir, shell=True).wait()
     
   
