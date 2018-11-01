@@ -25,7 +25,6 @@ Best,
 
 Feng ZHANG
 -----原始邮件-----
-发件人:"FENG Xikang" <xikanfeng2-c@my.cityu.edu.hk>
 发送时间:2018-01-15 14:24:42 (星期一)
 收件人: "张丰" <15110700005@fudan.edu.cn>
 抄送: 
@@ -54,7 +53,6 @@ Feng ZHANG
 
 
 -----原始邮件-----
-发件人:"FENG Xikang" <xikanfeng2-c@my.cityu.edu.hk>
 发送时间:2017-12-07 15:49:23 (星期四)
 收件人: "张丰" <15110700005@fudan.edu.cn>
 抄送: 
@@ -127,7 +125,6 @@ Feng ZHANG
 
 
 -----原始邮件-----
-发件人:"FENG Xikang" <xikanfeng2-c@my.cityu.edu.hk>
 发送时间:2017-12-07 10:22:00 (星期四)
 收件人: "张丰" <15110700005@fudan.edu.cn>
 抄送: 
