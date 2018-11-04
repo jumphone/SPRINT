@@ -22,8 +22,9 @@ def annotate(bed_in_dir=0,bed_anno_dir=0,bed_out_dir=0):
 		for line in fi:
 		
 			seq = line.split()
-			if len(seq[0]) <=5:
-				output=line[0:-1]
+			#if len(seq[0]) <=5:
+			if 1==1:
+				output=line.rstrip()
 				if seq[0]==lastchr:
 					1+1
 				else:
