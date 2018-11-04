@@ -21,10 +21,10 @@ def annotate(bed_in_dir=0,bed_anno_dir=0,bed_out_dir=0):
 		lastchr=''
 		for line in fi:
 		
-			seq = line.split()
+			seq = line.rstrip().split('\t')
 			#if len(seq[0]) <=5:
 			if 1==1:
-				output=line.rstrip()
+				output=line.replace('\n','')
 				if seq[0]==lastchr:
 					1+1
 				else:
