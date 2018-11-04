@@ -18,7 +18,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 setup(
     name='sprint',
-    version='0.1.7',
+    version='0.1.8',
     description='A toolkit for accurately identifying RNA editing sites without the need to filter SNPs',
     long_description=long_description,
     url='http://sprint.tianlab.cn',
