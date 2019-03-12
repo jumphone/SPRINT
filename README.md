@@ -1,6 +1,10 @@
 # SPRINT
 SNP-free RNA editing Identification Toolkit
 
+# RES Database (dbRES) & Repeat File Database (dbREP)
+
+https://sourceforge.net/projects/sprintpy/files/dbRES/
+
 # Version
 0.1.8 - "annotate" updated
 
