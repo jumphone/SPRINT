@@ -1,4 +1,4 @@
-# SPRINT
+<img src="https://github.com/jumphone/SPRINT/blob/master/data/LOGO.png?raw=true" width="200">
 
 SNP-free RNA editing Identification Toolkit
 
