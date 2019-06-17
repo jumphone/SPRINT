@@ -8,9 +8,11 @@ https://sourceforge.net/projects/sprintpy/files/dbRES/
 
 # News
 
-0.1.8 - "annotate" updated
+Jun. 2019, new feature (>=0.1.8) is only on Github, please do not use "pip install sprint" to install the latest SPRINT.
 
-0.1.7 - first version on github
+Nov. 2018, 0.1.8 - "annotate" updated
+
+Feb. 2018, 0.1.7 - first version on github
 
 # Reference:
 Feng Zhang, Yulan Lu, Sijia Yan, Qinghe Xing, Weidong Tian; SPRINT: an SNP-free toolkit for identifying RNA editing sites, Bioinformatics, Volume 33, Issue 22, 15 November 2017, Pages 3538–3548, https://doi.org/10.1093/bioinformatics/btx473
