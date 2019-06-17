@@ -6,7 +6,8 @@ SNP-free RNA editing Identification Toolkit
 
 https://sourceforge.net/projects/sprintpy/files/dbRES/
 
-# Version
+# News
+
 0.1.8 - "annotate" updated
 
 0.1.7 - first version on github
