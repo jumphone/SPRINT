@@ -2,6 +2,8 @@
 
 SNP-free RNA editing Identification Toolkit
 
+SPRINT is designed for detecting RNA editing sites from RNA-seq data
+
 # RES (dbRES) & Repeat Region (dbREP)
 
 https://sourceforge.net/projects/sprintpy/files/dbRES/
