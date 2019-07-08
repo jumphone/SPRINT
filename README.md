@@ -1,6 +1,6 @@
 <img src="https://github.com/jumphone/SPRINT/blob/master/data/LOGO.png?raw=true" width="250">
 
-SNP-free RNA editing Identification Toolkit
+SNP-free RNA editing Identification Toolkit (SPRINT)
 
 SPRINT is designed for detecting RNA editing sites from RNA-seq data
 
