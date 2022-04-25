@@ -1,4 +1,4 @@
-<img src="https://github.com/jumphone/SPRINT/blob/master/data/LOGO.png?raw=true" width="250">
+<img src="https://gitee.com/jumphone/public/raw/master/fitdevo_logo.png" width="250">
 
 SNP-free RNA editing Identification Toolkit (SPRINT)
 
