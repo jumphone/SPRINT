@@ -128,3 +128,15 @@ a. "AG +/-" + "TC +/-". Disadvantages: overestimate the A-to-G rate
 
 b. assign the strand of sites by using GENE annotations (e.g. ENSEMBL, REFSEQ, GENCODE, etc.) , and then: "AG +" + "TC -".  Disadvantages: gene region only, underestimate the A-to-G rate (the opposite strand may also have transcript )
 ________________________
+
+
+
+
+<img src="https://fzhang.bioinfo-lab.com/img/white.png" height="50">
+
+-------------------------------------------------------------------------------------------------------------------
+
+<img src="https://fzhang.bioinfo-lab.com/img/panda_happy_logo.png" height='150'>
+
+#### More tools & studies: https://fzhang.bioinfo-lab.com/
+
