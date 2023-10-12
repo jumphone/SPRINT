@@ -6,7 +6,9 @@ for line in fi:
 		seq=line.split('\t')
 		fo.write(seq[5]+'\t'+seq[6]+'\t'+seq[7]+'\t'+seq[10]+' | '+seq[11]+' | '+seq[12]+'\tRepeat_region\t'+seq[9]+'\n')
 
-
+#10: repName
+#11: repName
+#12: repClass
 
 
 
