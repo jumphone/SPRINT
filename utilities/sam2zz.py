@@ -134,3 +134,8 @@ def sam2zz(sam_in_dir=0,fa_in_dir=0,zz_out_dir=0):
 	fi.close()	
 	fo.close()
 
+import sys
+sam2zz(sam_in_dir=sys.argv[1],fa_in_dir=sys.argv[2],zz_out_dir=sys.argv[3])
+
+
+
