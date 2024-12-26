@@ -58,6 +58,8 @@ c. The reference_genome used by sprint_from_bam should be the same with that use
 
 d. “sprint_from_bam” was designed for aligned reads without using any aligner. In exchange, “sprint_from_bam” doesn’t include the function of detecting hyper RESs, because detecting hyper RESs needs to use aligner. However, in order to detect hyper RESs from BAM format, users can use SAMTOOLS to extract unaligned reads (BAM format) with command options of “samtools view -f4 -b”, and then convert it into FASTQ format with command options of “samtools bam2fq”. Finally, users can apply SPRINT to the unaligned reads (FASTQ format) to obtain hyper RESs and hyper-edited reads.
 
+e. If you meet the problem "samtools: error while loading shared libraries: libncurses.so.5: cannot open shared rectory", try:
+ln -s /usr/lib64/libncurses.so.6.1 /usr/lib64/libncurses.so.5
 
 # Tips:
 
