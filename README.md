@@ -28,6 +28,9 @@ Feng Zhang, Yulan Lu, Sijia Yan, Qinghe Xing, Weidong Tian; SPRINT: an SNP-free 
 # Do not use .GZ files. Please "gunzip" the ".fastq.gz" files.
 
 # Installation:
+
+Users can directly use the podman (docker) image of sprint. Demo scripts are in "/home/sprint". Download podman image (434m with demo fastq): https://pan.baidu.com/s/10xScHRKq1IkeIyPnsVeCyA?pwd=jump
+
 Directly use the binary file in https://github.com/jumphone/SPRINT/tree/master/bin, or
 
 python setup.py install
