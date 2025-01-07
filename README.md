@@ -10,6 +10,9 @@ https://sourceforge.net/projects/sprintpy/files/dbRES/
 
 # News
 
+Dec. 2024, users can directly use the podman (docker) image of sprint. Demo scripts are in "/home/sprint". Download podman image (434m with demo fastq): https://pan.baidu.com/s/10xScHRKq1IkeIyPnsVeCyA?pwd=jump
+
+
 Jun. 2019, new feature (>=0.1.8) is only on Github, please do not use "pip install sprint" to install the latest SPRINT.
 
 Nov. 2018, 0.1.8 - "annotate" updated
